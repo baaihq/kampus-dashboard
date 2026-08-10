@@ -1,0 +1,203 @@
+@import "@fontsource-variable/inter";
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-primary: #2563eb;
+  --color-secondary: #3b82f6;
+  --color-accent: #06b6d4;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-line: #e2e8f0;
+
+  --shadow-soft: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px -6px rgb(15 23 42 / 0.06);
+  --shadow-lift: 0 4px 10px rgb(15 23 42 / 0.05), 0 18px 40px -12px rgb(15 23 42 / 0.18);
+  --shadow-glow: 0 0 0 1px rgb(37 99 235 / 0.08), 0 12px 44px -8px rgb(37 99 235 / 0.28);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: rgb(37 99 235 / 0.2);
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(148 163 184 / 0.45) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(148 163 184 / 0.45);
+    border-radius: 999px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(37 99 235 / 0.6);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .glass {
+    border: 1px solid rgb(255 255 255 / 0.6);
+    background: rgb(255 255 255 / 0.72);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgb(37 99 235 / 0.055) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(37 99 235 / 0.055) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+  }
+
+  .text-gradient {
+    background-image: linear-gradient(115deg, #2563eb 5%, #06b6d4 55%, #10b981 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .card-hover {
+    transition:
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: var(--shadow-lift);
+  }
+
+  .animate-float {
+    animation: float 7s ease-in-out infinite;
+  }
+
+  .animate-float-slow {
+    animation: float 11s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 24s linear infinite;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-16px) rotate(4deg);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      rgb(226 232 240 / 0.7) 25%,
+      rgb(241 245 249 / 0.9) 50%,
+      rgb(226 232 240 / 0.7) 75%
+    );
+    background-size: 800px 100%;
+    animation: shimmer 1.4s infinite linear;
+  }
+}
+
+/*
+  Dark mode overrides.
+  Diletakkan di luar @layer agar menang atas semua utilitas Tailwind (cascade layers),
+  sehingga teks, border, dan permukaan tetap terbaca pada tema gelap.
+*/
+.dark body {
+  background-color: #1c1c20;
+  color: #d6d6da;
+}
+
+.dark .bg-canvas {
+  background-color: #1c1c20;
+}
+
+.dark .bg-surface {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .border-line {
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+.dark .text-ink {
+  color: #e6e6e9;
+}
+
+.dark .text-muted {
+  color: #a3a3ab;
+}
+
+.dark .text-slate-600 {
+  color: #a3a3ab;
+}
+
+.dark .text-slate-700 {
+  color: #c6c6cc;
+}
+
+.dark .text-slate-800 {
+  color: #e2e2e6;
+}
+
+.dark .glass {
+  border-color: rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.dark .skeleton {
+  background: linear-gradient(
+    90deg,
+    rgb(30 41 59 / 0.7) 25%,
+    rgb(51 65 85 / 0.9) 50%,
+    rgb(30 41 59 / 0.7) 75%
+  );
+  background-size: 800px 100%;
+}

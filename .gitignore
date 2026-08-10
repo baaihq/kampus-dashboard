@@ -1,0 +1,7 @@
+crawler/.venv/
+crawler/__pycache__/
+crawler/logs/
+dashboard/node_modules/
+dashboard/dist/
+dashboard/*.log
+*.zip

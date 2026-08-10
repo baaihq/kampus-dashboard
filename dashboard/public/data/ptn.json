@@ -1,0 +1,1466 @@
+{
+ "crawled_at": "2026-08-09 20:39:14",
+ "count": 146,
+ "items": [
+  {
+   "id": "111",
+   "kode": "1111",
+   "nama": "UNIVERSITAS SYIAH KUALA",
+   "website": "https://pmb.usk.ac.id/",
+   "kab_kota": "Kota Banda Aceh",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "112",
+   "kode": "1112",
+   "nama": "UNIVERSITAS MALIKUSSALEH",
+   "website": "http://pmb.unimal.ac.id/",
+   "kab_kota": "Kabupaten Aceh Utara",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "113",
+   "kode": "1113",
+   "nama": "UNIVERSITAS TEUKU UMAR",
+   "website": "https://pmb.utu.ac.id/",
+   "kab_kota": "Kabupaten Aceh Barat",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "114",
+   "kode": "1114",
+   "nama": "UNIVERSITAS SAMUDRA",
+   "website": "https://camaba.unsam.ac.id/",
+   "kab_kota": "Kota Langsa",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "115",
+   "kode": "1115",
+   "nama": "ISBI ACEH",
+   "website": "http://pmb.isbiaceh.ac.id/",
+   "kab_kota": "Kabupaten Aceh Besar",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "121",
+   "kode": "1121",
+   "nama": "UNIVERSITAS SUMATERA UTARA",
+   "website": "https://www.usu.ac.id/id/penerimaan",
+   "kab_kota": "Kota Medan",
+   "provinsi_1": "Sumatera Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "122",
+   "kode": "1122",
+   "nama": "UNIVERSITAS NEGERI MEDAN",
+   "website": "https://www.unimed.ac.id/pmb/",
+   "kab_kota": "Kota Medan",
+   "provinsi_1": "Sumatera Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "131",
+   "kode": "1131",
+   "nama": "UNIVERSITAS RIAU",
+   "website": "https://registrasiulang.unri.ac.id/ ",
+   "kab_kota": "Kota Pekanbaru",
+   "provinsi_1": "Riau",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "133",
+   "kode": "1133",
+   "nama": "UNIVERSITAS MARITIM RAJA ALI HAJI",
+   "website": "https://penerimaan.umrah.ac.id/",
+   "kab_kota": "Kota Tanjungpinang",
+   "provinsi_1": "Kepulauan Riau",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "141",
+   "kode": "1141",
+   "nama": "UNIVERSITAS ANDALAS",
+   "website": "https://pmb.unand.ac.id/",
+   "kab_kota": "Kota Padang",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "142",
+   "kode": "1142",
+   "nama": "UNIVERSITAS NEGERI PADANG",
+   "website": "https://spmb.unp.ac.id",
+   "kab_kota": "Kota Padang",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "143",
+   "kode": "1143",
+   "nama": "ISI PADANG PANJANG",
+   "website": "https://www.isi-padangpanjang.ac.id/",
+   "kab_kota": "Kota Padang Panjang",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "151",
+   "kode": "1151",
+   "nama": "UNIVERSITAS JAMBI",
+   "website": "https://regis.unja.ac.id/",
+   "kab_kota": "Kabupaten Muaro Jambi",
+   "provinsi_1": "Jambi",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "161",
+   "kode": "1161",
+   "nama": "UNIVERSITAS BENGKULU",
+   "website": "https://portal.unib.ac.id",
+   "kab_kota": "Kota Bengkulu",
+   "provinsi_1": "Bengkulu",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "171",
+   "kode": "1171",
+   "nama": "UNIVERSITAS SRIWIJAYA",
+   "website": "https://pmb.unsri.ac.id/",
+   "kab_kota": "Kabupaten Ogan Ilir",
+   "provinsi_1": "Sumatera Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "181",
+   "kode": "1181",
+   "nama": "UNIVERSITAS BANGKA BELITUNG",
+   "website": "https://pmb.ubb.ac.id",
+   "kab_kota": "Kabupaten Bangka",
+   "provinsi_1": "Kepulauan Bangka Belitung",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "191",
+   "kode": "1191",
+   "nama": "UNIVERSITAS LAMPUNG",
+   "website": "http://simanila.unila.ac.id/",
+   "kab_kota": "Kota Bandar Lampung",
+   "provinsi_1": "Lampung",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "192",
+   "kode": "1192",
+   "nama": "INSTITUT TEKNOLOGI SUMATERA",
+   "website": "https://pmb.itera.ac.id/",
+   "kab_kota": "Kabupaten Lampung Selatan",
+   "provinsi_1": "Lampung",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "311",
+   "kode": "1311",
+   "nama": "UNIVERSITAS SULTAN AGENG TIRTAYASA",
+   "website": "https://pmb.untirta.ac.id/",
+   "kab_kota": "Kabupaten Serang",
+   "provinsi_1": "Banten",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "321",
+   "kode": "1321",
+   "nama": "UNIVERSITAS INDONESIA",
+   "website": "https://enrollment.ui.ac.id/",
+   "kab_kota": "Kota Jakarta Pusat",
+   "provinsi_1": "Jakarta Raya",
+   "provinsi_2": "Jawa Barat",
+   "kategori": "akademik"
+  },
+  {
+   "id": "323",
+   "kode": "1323",
+   "nama": "UNIVERSITAS NEGERI JAKARTA",
+   "website": "http://penmaba.unj.ac.id/",
+   "kab_kota": "Kota Jakarta Timur",
+   "provinsi_1": "Jakarta Raya",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "324",
+   "kode": "1324",
+   "nama": "UPN \"VETERAN\" JAKARTA",
+   "website": "https://penmaru.upnvj.ac.id/",
+   "kab_kota": "Kota Jakarta Selatan",
+   "provinsi_1": "Jakarta Raya",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "329",
+   "kode": "1329",
+   "nama": "UNIVERSITAS TERBUKA",
+   "website": "https://www.ut.ac.id/sistem-registrasi",
+   "kab_kota": "Kota Tangerang Selatan",
+   "provinsi_1": "Banten",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "331",
+   "kode": "1331",
+   "nama": "UNIVERSITAS SINGAPERBANGSA KARAWANG",
+   "website": "https://pmb.unsika.ac.id/",
+   "kab_kota": "Kabupaten Karawang",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "332",
+   "kode": "1332",
+   "nama": "INSTITUT TEKNOLOGI BANDUNG",
+   "website": "https://admission.itb.ac.id",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "333",
+   "kode": "1333",
+   "nama": "UNIVERSITAS PADJADJARAN",
+   "website": "https://smup.unpad.ac.id/",
+   "kab_kota": "Kabupaten Sumedang",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "334",
+   "kode": "1334",
+   "nama": "UNIVERSITAS PENDIDIKAN INDONESIA",
+   "website": "https://pmb.upi.edu/",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "335",
+   "kode": "1335",
+   "nama": "ISBI BANDUNG",
+   "website": "https://pmb.isbi.ac.id/",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "341",
+   "kode": "1341",
+   "nama": "INSTITUT PERTANIAN BOGOR",
+   "website": "https://registrasi.admisi.ipb.ac.id",
+   "kab_kota": "Kabupaten Bogor",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "342",
+   "kode": "1342",
+   "nama": "UNIVERSITAS SILIWANGI",
+   "website": "https://pmb.unsil.ac.id/",
+   "kab_kota": "Kota Tasikmalaya",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "351",
+   "kode": "1351",
+   "nama": "UNIVERSITAS JENDERAL SOEDIRMAN",
+   "website": "http://admisi.unsoed.ac.id/",
+   "kab_kota": "Kabupaten Banyumas",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "352",
+   "kode": "1352",
+   "nama": "UNIVERSITAS TIDAR",
+   "website": "https://smart.untidar.ac.id",
+   "kab_kota": "Kota Magelang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "353",
+   "kode": "1353",
+   "nama": "UNIVERSITAS SEBELAS MARET",
+   "website": "https://spmb.uns.ac.id",
+   "kab_kota": "Kota Surakarta",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "354",
+   "kode": "1354",
+   "nama": "ISI SURAKARTA",
+   "website": "https://spmb.isi-ska.ac.id/",
+   "kab_kota": "Kota Surakarta",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "355",
+   "kode": "1355",
+   "nama": "UNIVERSITAS DIPONEGORO",
+   "website": "https://pmb.undip.ac.id/",
+   "kab_kota": "Kota Semarang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "356",
+   "kode": "1356",
+   "nama": "UNIVERSITAS NEGERI SEMARANG",
+   "website": "https://unnes.ac.id/admission",
+   "kab_kota": "Kota Semarang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "361",
+   "kode": "1361",
+   "nama": "UNIVERSITAS GADJAH MADA",
+   "website": "https://admissions.ugm.ac.id",
+   "kab_kota": "Kabupaten Sleman",
+   "provinsi_1": "Yogyakarta",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "362",
+   "kode": "1362",
+   "nama": "UNIVERSITAS NEGERI YOGYAKARTA",
+   "website": "http://pmb.uny.ac.id",
+   "kab_kota": "Kabupaten Sleman",
+   "provinsi_1": "Yogyakarta",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "363",
+   "kode": "1363",
+   "nama": "UPN \"VETERAN\" YOGYAKARTA",
+   "website": "https://pmb.upnyk.ac.id/",
+   "kab_kota": "Kabupaten Sleman",
+   "provinsi_1": "Yogyakarta",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "364",
+   "kode": "1364",
+   "nama": "ISI YOGYAKARTA",
+   "website": "https://pmb.isi.ac.id/",
+   "kab_kota": "Kabupaten Bantul",
+   "provinsi_1": "Yogyakarta",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "371",
+   "kode": "1371",
+   "nama": "UNIVERSITAS JEMBER",
+   "website": "https://pmb.unej.ac.id ",
+   "kab_kota": "Kabupate Jember",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "372",
+   "kode": "1372",
+   "nama": "UNIVERSITAS BRAWIJAYA",
+   "website": "https://selma.ub.ac.id/",
+   "kab_kota": "Kota Malang",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "373",
+   "kode": "1373",
+   "nama": "UNIVERSITAS NEGERI MALANG",
+   "website": "http://seleksi.um.ac.id/",
+   "kab_kota": "Kota Malang",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "381",
+   "kode": "1381",
+   "nama": "UNIVERSITAS AIRLANGGA",
+   "website": "https://ppmb.unair.ac.id",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "382",
+   "kode": "1382",
+   "nama": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
+   "website": "https://www.its.ac.id/admission/",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "383",
+   "kode": "1383",
+   "nama": "UNIVERSITAS NEGERI SURABAYA",
+   "website": "https://admisi.unesa.ac.id/",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "384",
+   "kode": "1384",
+   "nama": "UNIVERSITAS TRUNOJOYO MADURA",
+   "website": "https://pmb.trunojoyo.ac.id",
+   "kab_kota": "Kabupaten Bangkalan",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "385",
+   "kode": "1385",
+   "nama": "UPN \"VETERAN\" JAWA TIMUR",
+   "website": "https://simaba.upnjatim.ac.id/ ",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "511",
+   "kode": "1511",
+   "nama": "UNIVERSITAS TANJUNGPURA",
+   "website": "https://scmb.untan.ac.id",
+   "kab_kota": "Kota Pontianak",
+   "provinsi_1": "Kalimantan Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "521",
+   "kode": "1521",
+   "nama": "UNIVERSITAS PALANGKARAYA",
+   "website": "https://pmb.upr.ac.id/",
+   "kab_kota": "Kota Palangkaraya",
+   "provinsi_1": "Kalimantan Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "531",
+   "kode": "1531",
+   "nama": "UNIVERSITAS LAMBUNG MANGKURAT",
+   "website": "https://pmb.ulm.ac.id/",
+   "kab_kota": "Kota Banjarmasin",
+   "provinsi_1": "Kalimantan Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "541",
+   "kode": "1541",
+   "nama": "UNIVERSITAS MULAWARMAN",
+   "website": "https://unmul.ac.id",
+   "kab_kota": "Kota Samarinda",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "542",
+   "kode": "1542",
+   "nama": "INSTITUT TEKNOLOGI KALIMANTAN",
+   "website": "http://pmb.itk.ac.id/",
+   "kab_kota": "Kota Balikpapan",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "551",
+   "kode": "1551",
+   "nama": "UNIVERSITAS BORNEO TARAKAN",
+   "website": "https://www.ubt.ac.id/pmb/pengumuman-snbt/",
+   "kab_kota": "Kota Tarakan",
+   "provinsi_1": "Kalimantan Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "611",
+   "kode": "1611",
+   "nama": "UNIVERSITAS UDAYANA",
+   "website": "https://www.unud.ac.id/",
+   "kab_kota": "Kabupaten Badung",
+   "provinsi_1": "Bali",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "612",
+   "kode": "1612",
+   "nama": "UNIVERSITAS PENDIDIKAN GANESHA",
+   "website": "https://penerimaan.undiksha.ac.id/",
+   "kab_kota": "Kabupaten Buleleng",
+   "provinsi_1": "Bali",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "613",
+   "kode": "1613",
+   "nama": "ISI BALI",
+   "website": "https://isibali.ac.id/",
+   "kab_kota": "Kota Denpasar",
+   "provinsi_1": "Bali",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "621",
+   "kode": "1621",
+   "nama": "UNIVERSITAS MATARAM",
+   "website": "https://unram.ac.id/",
+   "kab_kota": "Kota Mataram",
+   "provinsi_1": "Nusa Tenggara Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "631",
+   "kode": "1631",
+   "nama": "UNIVERSITAS NUSA CENDANA",
+   "website": "https://undana.ac.id/admissions/",
+   "kab_kota": "Kota Kupang",
+   "provinsi_1": "Nusa Tenggara Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "632",
+   "kode": "1632",
+   "nama": "UNIVERSITAS TIMOR",
+   "website": "https://www.unimor.ac.id",
+   "kab_kota": "Kabupaten Timor Tengah Utara",
+   "provinsi_1": "Nusa Tenggara Timur",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "711",
+   "kode": "1711",
+   "nama": "UNIVERSITAS HASANUDDIN",
+   "website": "https://regpmb.unhas.ac.id",
+   "kab_kota": "Kota Makassar",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "712",
+   "kode": "1712",
+   "nama": "UNIVERSITAS NEGERI MAKASSAR",
+   "website": "https://unm.ac.id/info-pmb/",
+   "kab_kota": "Kota Makassar",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "718",
+   "kode": "1718",
+   "nama": "INSTITUT TEKNOLOGI BJ. HABIBIE SULAWESI SELATAN",
+   "website": "https://admission.ith.ac.id/",
+   "kab_kota": "Kota Parepare",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "721",
+   "kode": "1721",
+   "nama": "UNIVERSITAS SAM RATULANGI",
+   "website": "https://regmaba.unsrat.ac.id",
+   "kab_kota": "Kota Manado",
+   "provinsi_1": "Sulawesi Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "722",
+   "kode": "1722",
+   "nama": "UNIVERSITAS NEGERI MANADO",
+   "website": "https://penerimaan.unima.ac.id/",
+   "kab_kota": "Kabupaten Minahasa",
+   "provinsi_1": "Sulawesi Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "731",
+   "kode": "1731",
+   "nama": "UNIVERSITAS TADULAKO",
+   "website": "https://pmb.untad.ac.id/",
+   "kab_kota": "Kota Palu",
+   "provinsi_1": "Sulawesi Tengah",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "741",
+   "kode": "1741",
+   "nama": "UNIVERSITAS SULAWESI BARAT",
+   "website": "https://pmb.unsulbar.ac.id/",
+   "kab_kota": "Kabupaten Majene",
+   "provinsi_1": "Sulawesi Barat",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "751",
+   "kode": "1751",
+   "nama": "UNIVERSITAS HALUOLEO",
+   "website": "https://spmb.uho.ac.id/",
+   "kab_kota": "Kota Kendari",
+   "provinsi_1": "Sulawesi Tenggara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "752",
+   "kode": "1752",
+   "nama": "UNIVERSITAS NEGERI GORONTALO",
+   "website": "https://spmb.ung.ac.id/",
+   "kab_kota": "Kota Gorontalo",
+   "provinsi_1": "Gorontalo",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "753",
+   "kode": "1753",
+   "nama": "UNIVERSITAS SEMBILAN BELAS NOVEMBER KOLAKA",
+   "website": "https://spmb.usn.ac.id/",
+   "kab_kota": "Kabupaten Kolaka",
+   "provinsi_1": "Sulawesi Tenggara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "811",
+   "kode": "1811",
+   "nama": "UNIVERSITAS PATTIMURA",
+   "website": "https://pmb.unpatti.ac.id",
+   "kab_kota": "Kota Ambon",
+   "provinsi_1": "Maluku",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "821",
+   "kode": "1821",
+   "nama": "UNIVERSITAS KHAIRUN",
+   "website": "http://ukt.unkhair.ac.id/",
+   "kab_kota": "Kota Ternate",
+   "provinsi_1": "Maluku Utara",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "911",
+   "kode": "1911",
+   "nama": "UNIVERSITAS CENDERAWASIH",
+   "website": "https://pmb.uncen.ac.id",
+   "kab_kota": "Kota Jayapura",
+   "provinsi_1": "Papua",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "912",
+   "kode": "1912",
+   "nama": "UNIVERSITAS MUSAMUS MERAUKE",
+   "website": "http://admisi.unmus.ac.id/",
+   "kab_kota": "Kabupaten Merauke",
+   "provinsi_1": "Papua Selatan",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "913",
+   "kode": "1913",
+   "nama": "ISBI TANAH PAPUA",
+   "website": "https://www.pmb.isbi-tanahpapua.ac.id",
+   "kab_kota": "Kabupate Jayapura",
+   "provinsi_1": "Papua",
+   "provinsi_2": "",
+   "kategori": "akademik"
+  },
+  {
+   "id": "921",
+   "kode": "1921",
+   "nama": "UNIVERSITAS PAPUA",
+   "website": "https://bpak.unipa.ac.id/",
+   "kab_kota": "Kabupaten Manokwari",
+   "provinsi_1": "Papua Barat",
+   "provinsi_2": "Papua Barat Daya",
+   "kategori": "akademik"
+  },
+  {
+   "id": "221",
+   "kode": "2221",
+   "nama": "POLITEKNIK NEGERI LHOKSEUMAWE",
+   "website": "http://pmb.pnl.ac.id/",
+   "kab_kota": "Kota Lhokseumawe",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "222",
+   "kode": "2222",
+   "nama": "POLITEKNIK NEGERI MEDAN",
+   "website": "https://polmed.ac.id/",
+   "kab_kota": "Kota Medan",
+   "provinsi_1": "Sumatera Utara",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "231",
+   "kode": "2231",
+   "nama": "POLITEKNIK NEGERI BATAM",
+   "website": "http://registrasi.polibatam.ac.id/",
+   "kab_kota": "Kota Batam",
+   "provinsi_1": "Kepulauan Riau",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "232",
+   "kode": "2232",
+   "nama": "POLITEKNIK NEGERI BENGKALIS",
+   "website": "http://pmb.polbeng.ac.id/",
+   "kab_kota": "Kabupaten Bengkalis",
+   "provinsi_1": "Riau",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "241",
+   "kode": "2241",
+   "nama": "POLITEKNIK NEGERI PADANG",
+   "website": "https://penerimaan.pnp.ac.id/",
+   "kab_kota": "Kota Padang",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "242",
+   "kode": "2242",
+   "nama": "POLITEKNIK PERTANIAN NEGERI PAYAKUMBUH",
+   "website": "https://infopmb.ppnp.ac.id",
+   "kab_kota": "Kabupaten Lima Puluh Koto",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "271",
+   "kode": "2271",
+   "nama": "POLITEKNIK NEGERI SRIWIJAYA",
+   "website": "https://spmb.polsri.ac.id",
+   "kab_kota": "Kota Palembang",
+   "provinsi_1": "Sumatera Selatan",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "281",
+   "kode": "2281",
+   "nama": "POLITEKNIK MANUFAKTUR NEGERI BANGKA BELITUNG",
+   "website": "http://pmb.polman-babel.ac.id/",
+   "kab_kota": "Kabupaten Bangka",
+   "provinsi_1": "Kepulauan Bangka Belitung",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "291",
+   "kode": "2291",
+   "nama": "POLITEKNIK NEGERI LAMPUNG",
+   "website": "https://polinela.ac.id/",
+   "kab_kota": "Kota Bandar Lampung",
+   "provinsi_1": "Lampung",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "421",
+   "kode": "2421",
+   "nama": "POLITEKNIK NEGERI JAKARTA",
+   "website": "https://penerimaan.pnj.ac.id/",
+   "kab_kota": "Kota Depok",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "422",
+   "kode": "2422",
+   "nama": "POLITEKNIK NEGERI MEDIA KREATIF",
+   "website": "https://pmb.polimedia.ac.id/",
+   "kab_kota": "Kota Jakarta Selatan",
+   "provinsi_1": "Jakarta Raya",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "431",
+   "kode": "2431",
+   "nama": "POLITEKNIK NEGERI BANDUNG",
+   "website": "https://smb.polban.ac.id/",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "432",
+   "kode": "2432",
+   "nama": "POLITEKNIK MANUFAKTUR BANDUNG",
+   "website": "https://pmb.polman-bandung.ac.id/",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "433",
+   "kode": "2433",
+   "nama": "POLITEKNIK NEGERI INDRAMAYU",
+   "website": "https://pmb.polindra.ac.id/",
+   "kab_kota": "Kabupaten Indramayu",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "434",
+   "kode": "2434",
+   "nama": "POLITEKNIK NEGERI SUBANG",
+   "website": "https://pmb.polsub.ac.id/",
+   "kab_kota": "Kabupaten Subang",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "452",
+   "kode": "2452",
+   "nama": "POLITEKNIK NEGERI SEMARANG",
+   "website": "https://pmb.polines.ac.id",
+   "kab_kota": "Kota Semarang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "453",
+   "kode": "2453",
+   "nama": "POLITEKNIK NEGERI CILACAP",
+   "website": "https://pmb.pnc.ac.id/",
+   "kab_kota": "Kabupaten Cilacap",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "454",
+   "kode": "2454",
+   "nama": "POLITEKNIK MARITIM NEGERI INDONESIA",
+   "website": "https://pmb.polimarin.ac.id/",
+   "kab_kota": "Kota Semarang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "471",
+   "kode": "2471",
+   "nama": "POLITEKNIK NEGERI BANYUWANGI",
+   "website": "https://www.poliwangi.ac.id",
+   "kab_kota": "Kabupaten Banyuwangi",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "472",
+   "kode": "2472",
+   "nama": "POLITEKNIK NEGERI JEMBER",
+   "website": "https://www.polije.ac.id/",
+   "kab_kota": "Kabupate Jember",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "473",
+   "kode": "2473",
+   "nama": "POLITEKNIK NEGERI MADIUN",
+   "website": "https://pmb.pnm.ac.id/",
+   "kab_kota": "Kota Madiun",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "474",
+   "kode": "2474",
+   "nama": "POLITEKNIK NEGERI MALANG",
+   "website": "http://spmb.polinema.ac.id/",
+   "kab_kota": "Kota Malang",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "481",
+   "kode": "2481",
+   "nama": "POLITEKNIK PERKAPALAN NEGERI SURABAYA",
+   "website": "https://pmb.ppns.ac.id/",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "482",
+   "kode": "2482",
+   "nama": "POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)",
+   "website": "https://pmb.pens.ac.id/",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "483",
+   "kode": "2483",
+   "nama": "POLITEKNIK NEGERI MADURA",
+   "website": "https://www.portal-pmb.poltera.ac.idb.poltera.ac.id",
+   "kab_kota": "Kabupaten Sampang",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "515",
+   "kode": "2515",
+   "nama": "POLITEKNIK NEGERI PONTIANAK",
+   "website": "https://spmb.polnep.ac.id/",
+   "kab_kota": "Kota Pontianak",
+   "provinsi_1": "Kalimantan Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "516",
+   "kode": "2516",
+   "nama": "POLITEKNIK NEGERI KETAPANG",
+   "website": "https://pmb.politap.ac.id",
+   "kab_kota": "Kabupaten Ketapang",
+   "provinsi_1": "Kalimantan Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "517",
+   "kode": "2517",
+   "nama": "POLITEKNIK NEGERI SAMBAS",
+   "website": "https://poltesa.ac.id/",
+   "kab_kota": "Kabupaten Sambas",
+   "provinsi_1": "Kalimantan Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "536",
+   "kode": "2536",
+   "nama": "POLITEKNIK NEGERI BANJARMASIN",
+   "website": "https://pmb.poliban.ac.id/",
+   "kab_kota": "Kota Banjarmasin",
+   "provinsi_1": "Kalimantan Selatan",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "537",
+   "kode": "2537",
+   "nama": "POLITEKNIK NEGERI TANAH LAUT",
+   "website": "https://sinema.politala.ac.id",
+   "kab_kota": "Kabupaten Tanah Laut",
+   "provinsi_1": "Kalimantan Selatan",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "552",
+   "kode": "2552",
+   "nama": "POLITEKNIK NEGERI NUNUKAN",
+   "website": "http://pnn.ac.id/",
+   "kab_kota": "Kabupaten Nunukan",
+   "provinsi_1": "Kalimantan Utara",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "561",
+   "kode": "2561",
+   "nama": "POLITEKNIK PERTANIAN NEGERI SAMARINDA",
+   "website": "https://politanisamarinda.ac.id/",
+   "kab_kota": "Kota Samarinda",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "562",
+   "kode": "2562",
+   "nama": "POLITEKNIK NEGERI SAMARINDA",
+   "website": "https://pmb.polnes.ac.id/",
+   "kab_kota": "Kota Samarinda",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "563",
+   "kode": "2563",
+   "nama": "POLITEKNIK NEGERI BALIKPAPAN",
+   "website": "https://pmb.poltekba.ac.id/",
+   "kab_kota": "Kota Balikpapan",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "617",
+   "kode": "2617",
+   "nama": "POLITEKNIK NEGERI BALI",
+   "website": "https://pnb.ac.id/",
+   "kab_kota": "Kabupaten Badung",
+   "provinsi_1": "Bali",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "641",
+   "kode": "2641",
+   "nama": "POLITEKNIK NEGERI KUPANG",
+   "website": "https://sidalang.pnk.ac.id/login",
+   "kab_kota": "Kota Kupang",
+   "provinsi_1": "Nusa Tenggara Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "642",
+   "kode": "2642",
+   "nama": "POLITEKNIK PERTANIAN NEGERI KUPANG",
+   "website": "http://pmb.politanikoe.ac.id/",
+   "kab_kota": "Kota Kupang",
+   "provinsi_1": "Nusa Tenggara Timur",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "716",
+   "kode": "2716",
+   "nama": "POLITEKNIK NEGERI UJUNG PANDANG",
+   "website": "https://pmb.poliupg.ac.id/pengumuman",
+   "kab_kota": "Kota Makassar",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "717",
+   "kode": "2717",
+   "nama": "POLITEKNIK PERTANIAN NEGERI PANGKAJENE KEPULAUAN",
+   "website": "https://polipangkep.ac.id/",
+   "kab_kota": "Kabupaten Pangkaje",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "727",
+   "kode": "2727",
+   "nama": "POLITEKNIK NEGERI MANADO",
+   "website": "https://polimdo.ac.id/",
+   "kab_kota": "Kota Manado",
+   "provinsi_1": "Sulawesi Utara",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "728",
+   "kode": "2728",
+   "nama": "POLITEKNIK NEGERI NUSA UTARA",
+   "website": "https://www.polnustar.ac.id/",
+   "kab_kota": "Kabupaten Kepulauan Sangihe",
+   "provinsi_1": "Sulawesi Utara",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "831",
+   "kode": "2831",
+   "nama": "POLITEKNIK NEGERI AMBON",
+   "website": "http://pmb.polnam.ac.id",
+   "kab_kota": "Kota Ambon",
+   "provinsi_1": "Maluku",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "832",
+   "kode": "2832",
+   "nama": "POLITEKNIK PERIKANAN NEGERI TUAL",
+   "website": "http://www.polikant.ac.id/",
+   "kab_kota": "Kabupaten Maluku Tenggara",
+   "provinsi_1": "Maluku",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "931",
+   "kode": "2931",
+   "nama": "POLITEKNIK NEGERI FAKFAK",
+   "website": "https://www.polinef.ac.id/",
+   "kab_kota": "Kabupaten Fak-Fak",
+   "provinsi_1": "Papua Barat",
+   "provinsi_2": "",
+   "kategori": "vokasi"
+  },
+  {
+   "id": "116",
+   "kode": "1116",
+   "nama": "UIN AR-RANIRY",
+   "website": "https://ar-raniry.ac.id/admisi/",
+   "kab_kota": "Kota Banda Aceh",
+   "provinsi_1": "Aceh",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "123",
+   "kode": "1123",
+   "nama": "UIN SUMATERA UTARA",
+   "website": "https://maba.uinsu.ac.id/",
+   "kab_kota": "Kabupaten Deli Serdang",
+   "provinsi_1": "Sumatera Utara",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "124",
+   "kode": "1124",
+   "nama": "UIN SYEKH ALI HASAN AHMAD ADDARY PADANGSIDIMPUAN",
+   "website": "https://www.uinsyahada.ac.id",
+   "kab_kota": "Kota Padangsidimpuan",
+   "provinsi_1": "Sumatera Utara",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "132",
+   "kode": "1132",
+   "nama": "UIN SULTAN SYARIF KASIM",
+   "website": "https://sireg.uin-suska.ac.id",
+   "kab_kota": "Kota Pekanbaru",
+   "provinsi_1": "Riau",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "144",
+   "kode": "1144",
+   "nama": "UIN IMAM BONJOL PADANG",
+   "website": "https://pmb.uinib.ac.id/",
+   "kab_kota": "Kota Padang",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "152",
+   "kode": "1152",
+   "nama": "UIN SULTAN THAHA SAIFUDDIN JAMBI",
+   "website": "https://pmb.uinjambi.ac.id/",
+   "kab_kota": "Kota Jambi",
+   "provinsi_1": "Jambi",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "172",
+   "kode": "1172",
+   "nama": "UIN RADEN FATAH",
+   "website": "https://registrasi.radenfatah.ac.id",
+   "kab_kota": "Kota Palembang",
+   "provinsi_1": "Sumatera Selatan",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "193",
+   "kode": "1193",
+   "nama": "UIN RADEN INTAN LAMPUNG",
+   "website": "https://www.radenintan.ac.id/",
+   "kab_kota": "Kota Bandar Lampung",
+   "provinsi_1": "Lampung",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "194",
+   "kode": "1194",
+   "nama": "UIN MAHMUD YUNUS BATUSANGKAR",
+   "website": "https://pmb.uinmybatusangkar.ac.id",
+   "kab_kota": "Kabupaten Tanah Datar",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "195",
+   "kode": "1195",
+   "nama": "UIN SJECH M. DJAMIL DJAMBEK BUKITTINGGI",
+   "website": "http://pmb.uinbukittinggi.ac.id",
+   "kab_kota": "Kota Bukittinggi",
+   "provinsi_1": "Sumatera Barat",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "312",
+   "kode": "1312",
+   "nama": "UIN SULTAN MAULANA HASANUDDIN BANTEN",
+   "website": "https://pmb.uinbanten.ac.id/",
+   "kab_kota": "Kota Serang",
+   "provinsi_1": "Banten",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "322",
+   "kode": "1322",
+   "nama": "UIN JAKARTA",
+   "website": "https://admisi.uinjkt.ac.id/",
+   "kab_kota": "Kota Tangerang Selatan",
+   "provinsi_1": "Banten",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "336",
+   "kode": "1336",
+   "nama": "UIN SUNAN GUNUNG DJATI",
+   "website": "https://pmb.uinsgd.ac.id/",
+   "kab_kota": "Kota Bandung",
+   "provinsi_1": "Jawa Barat",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "357",
+   "kode": "1357",
+   "nama": "UIN WALISONGO",
+   "website": "https://pmb.walisongo.ac.id",
+   "kab_kota": "Kota Semarang",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "358",
+   "kode": "1358",
+   "nama": "UIN RADEN MAS SAID SURAKARTA",
+   "website": "https://www.uinsaid.ac.id/",
+   "kab_kota": "Kabupate Sukoharjo",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "365",
+   "kode": "1365",
+   "nama": "UIN SUNAN KALIJAGA",
+   "website": "https://admisi.uin-suka.ac.id/",
+   "kab_kota": "Kabupaten Sleman",
+   "provinsi_1": "Yogyakarta",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "366",
+   "kode": "1366",
+   "nama": "UIN PROFESOR KIAI HAJI SAIFUDDIN ZUHRI PURWOKERTO",
+   "website": "https://pmb.uinsaizu.ac.id/",
+   "kab_kota": "Kabupaten Banyumas",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "367",
+   "kode": "1367",
+   "nama": "UIN SALATIGA",
+   "website": "https://pmb.uinsalatiga.ac.id",
+   "kab_kota": "Kota Salatiga",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "368",
+   "kode": "1368",
+   "nama": "UIN K.H. ABDURRAHMAN WAHID PEKALONGAN",
+   "website": "https://uingusdur.ac.id",
+   "kab_kota": "Kota Pekalongan",
+   "provinsi_1": "Jawa Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "374",
+   "kode": "1374",
+   "nama": "UIN MALANG",
+   "website": "http://pmb.uin-malang.ac.id/",
+   "kab_kota": "Kota Malang",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "386",
+   "kode": "1386",
+   "nama": "UIN SUNAN AMPEL SURABAYA",
+   "website": "https://pmb.uinsa.ac.id/pengumuman",
+   "kab_kota": "Kota Surabaya",
+   "provinsi_1": "Jawa Timur",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "532",
+   "kode": "1532",
+   "nama": "UIN ANTASARI BANJARMASIN",
+   "website": "https://pmb.uin-antasari.ac.id",
+   "kab_kota": "Kota Banjarmasin",
+   "provinsi_1": "Kalimantan Selatan",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "571",
+   "kode": "1571",
+   "nama": "UIN SULTAN AJI MUHAMMAD IDRIS SAMARINDA",
+   "website": "https://www.uinsi.ac.id/",
+   "kab_kota": "Kota Samarinda",
+   "provinsi_1": "Kalimantan Timur",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "622",
+   "kode": "1622",
+   "nama": "UIN MATARAM",
+   "website": "https://pmb.uinmataram.ac.id/",
+   "kab_kota": "Kota Mataram",
+   "provinsi_1": "Nusa Tenggara Barat",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "713",
+   "kode": "1713",
+   "nama": "UIN ALAUDDIN",
+   "website": "http://pmb.uin-alauddin.ac.id/site/login",
+   "kab_kota": "Kabupaten Gowa",
+   "provinsi_1": "Sulawesi Selatan",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  },
+  {
+   "id": "732",
+   "kode": "1732",
+   "nama": "UIN DATOKARAMA PALU",
+   "website": "https://siakad.uindatokarama.ac.id/spmbfront",
+   "kab_kota": "Kota Palu",
+   "provinsi_1": "Sulawesi Tengah",
+   "provinsi_2": "",
+   "kategori": "ptkin"
+  }
+ ]
+}

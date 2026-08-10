@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DAYA TAMPUNG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+	<link rel="stylesheet" href="css/site.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    
+    </head>
+    <body>
+	<div class="navbar navbar-fixed-top navbar-inverse t-navbar" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-main-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			</div>
+			
+			<div class="collapse navbar-collapse navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="ptn_sn.php">Daftar PTN AKADEMIK</a></li>
+					<li><a href="ptn_sn.php?ptn=-2">Daftar PTN VOKASI</a></li>	
+					<li><a href="ptn_sn.php?ptn=-3">Daftar PT KIN</a></li>	
+				</ul>
+			</div>
+						
+		</div>
+	</div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+<style>
+    .sel_ptn {
+        color: red;
+    }
+
+    .vtop {
+        display: inline-block !important;
+        vertical-align: top !important;
+        float: none;
+    }
+	
+	.info-url a { font-size: 90%; color: olivedrab; }
+	/* make bootstrap tooltip respects newline */
+	.tooltip-inner { white-space:pre-wrap; }
+	.ptn-info { color: #444; }
+	.ptn-info div { margin-bottom: 1px; }
+	.ptn-info span { font-size: 80%; color: #888; }
+	.info-url {
+    max-width: 50px;
+	}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+	}
+
+	table.fancy td {
+		padding: 4px 7px;
+		vertical-align: middle;
+	}
+	.ce {
+		text-align: center!important;
+	}
+	.ri {
+		text-align: right!important;
+	}
+</style>
+<h3>DAFTAR PRODI Seleksi Nasional Berdasarkan Prestasi (SNBP)</h3>
+<div class="panel panel-body">
+
+    <div class="well">
+		<a href="" target="_blank" class="panel-title">UNIVERSITAS INDONESIA</a> <br>
+        	Jumlah Prodi : 80<br>
+		Alamat Web : <a href="https://enrollment.ui.ac.id/" target="_blank">https://enrollment.ui.ac.id/</a><br>
+		Kab / Kota : Kota Jakarta Pusat<br>
+		Provinsi-1 : Jakarta Raya<br>
+		Provinsi-2 : Jawa Barat    </div>
+
+<table border="0">
+    <tr>
+    <td width="60%" valign="top">
+        <div>
+            
+                <div class="bs-example bs-example-tabs">
+                    <ul id="myTab" class="nav nav-tabs">
+                                                    <li  class="active" ><a href="#jenis1" data-toggle="tab">DAFTAR PRODI</a></li>
+                        
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                                                                                <div class="tab-pane fade  in active " id="jenis1">
+                                <br />
+                                                                				                                <table class="table table-striped vtop">
+                                    <thead>
+                                        <tr>
+					    <th>NO</th>
+                                            <th>KODE</th>
+                                            <th>NAMA</th>
+					    <th class="ri">JENJANG</th>
+                                            <th class="ri">DAYA TAMPUNG 2026</th>
+					    <th class="ri">PEMINAT 2025</th> 
+					    <th class="ri">JENIS PORTOFOLIO</th>
+					</tr>
+                                    </thead>
+                                    <tbody>
+
+                                        					                                                                                            <tr class="info">
+                                                <td>1</td>
+						<td>13211001</td>
+                                                <td><a href="?ptn=321&prodi=321001&jenis=0">PENDIDIKAN DOKTER</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">60</td>
+                                                <td class="ri">2056</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>2</td>
+						<td>13211002</td>
+                                                <td><a href="?ptn=321&prodi=321002&jenis=0">PENDIDIKAN DOKTER GIGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">540</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>3</td>
+						<td>13211003</td>
+                                                <td><a href="?ptn=321&prodi=321003&jenis=0">MATEMATIKA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">262</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>4</td>
+						<td>13211004</td>
+                                                <td><a href="?ptn=321&prodi=321004&jenis=0">FISIKA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">28</td>
+                                                <td class="ri">212</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>5</td>
+						<td>13211005</td>
+                                                <td><a href="?ptn=321&prodi=321005&jenis=0">KIMIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">28</td>
+                                                <td class="ri">307</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>6</td>
+						<td>13211006</td>
+                                                <td><a href="?ptn=321&prodi=321006&jenis=0">BIOLOGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">27</td>
+                                                <td class="ri">288</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>7</td>
+						<td>13211007</td>
+                                                <td><a href="?ptn=321&prodi=321007&jenis=0">FARMASI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">39</td>
+                                                <td class="ri">814</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>8</td>
+						<td>13211008</td>
+                                                <td><a href="?ptn=321&prodi=321008&jenis=0">GEOGRAFI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">28</td>
+                                                <td class="ri">245</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>9</td>
+						<td>13211009</td>
+                                                <td><a href="?ptn=321&prodi=321009&jenis=0">TEKNIK SIPIL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">40</td>
+                                                <td class="ri">553</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>10</td>
+						<td>13211010</td>
+                                                <td><a href="?ptn=321&prodi=321010&jenis=0">TEKNIK MESIN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">40</td>
+                                                <td class="ri">460</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>11</td>
+						<td>13211011</td>
+                                                <td><a href="?ptn=321&prodi=321011&jenis=0">TEKNIK ELEKTRO</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">30</td>
+                                                <td class="ri">505</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>12</td>
+						<td>13211012</td>
+                                                <td><a href="?ptn=321&prodi=321012&jenis=0">TEKNIK METALURGI & MATERIAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">34</td>
+                                                <td class="ri">460</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>13</td>
+						<td>13211013</td>
+                                                <td><a href="?ptn=321&prodi=321013&jenis=0">ARSITEKTUR</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">465</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>14</td>
+						<td>13211014</td>
+                                                <td><a href="?ptn=321&prodi=321014&jenis=0">TEKNIK KIMIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">29</td>
+                                                <td class="ri">488</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>15</td>
+						<td>13211015</td>
+                                                <td><a href="?ptn=321&prodi=321015&jenis=0">ILMU KEPERAWATAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">50</td>
+                                                <td class="ri">678</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>16</td>
+						<td>13211016</td>
+                                                <td><a href="?ptn=321&prodi=321016&jenis=0">ILMU KOMPUTER</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">50</td>
+                                                <td class="ri">1176</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>17</td>
+						<td>13211017</td>
+                                                <td><a href="?ptn=321&prodi=321017&jenis=0">ILMU KESEHATAN MASYARAKAT</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">45</td>
+                                                <td class="ri">642</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>18</td>
+						<td>13211018</td>
+                                                <td><a href="?ptn=321&prodi=321018&jenis=0">TEKNIK INDUSTRI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">47</td>
+                                                <td class="ri">898</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>19</td>
+						<td>13211019</td>
+                                                <td><a href="?ptn=321&prodi=321019&jenis=0">TEKNIK PERKAPALAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">26</td>
+                                                <td class="ri">252</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>20</td>
+						<td>13211020</td>
+                                                <td><a href="?ptn=321&prodi=321020&jenis=0">TEKNIK LINGKUNGAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">24</td>
+                                                <td class="ri">399</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>21</td>
+						<td>13211021</td>
+                                                <td><a href="?ptn=321&prodi=321021&jenis=0">TEKNIK KOMPUTER</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">22</td>
+                                                <td class="ri">488</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>22</td>
+						<td>13211022</td>
+                                                <td><a href="?ptn=321&prodi=321022&jenis=0">SISTEM INFORMASI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">50</td>
+                                                <td class="ri">952</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>23</td>
+						<td>13211023</td>
+                                                <td><a href="?ptn=321&prodi=321023&jenis=0">ARSITEKTUR INTERIOR</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">10</td>
+                                                <td class="ri">266</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>24</td>
+						<td>13211024</td>
+                                                <td><a href="?ptn=321&prodi=321024&jenis=0">TEKNOLOGI BIOPROSES</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">14</td>
+                                                <td class="ri">341</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>25</td>
+						<td>13211025</td>
+                                                <td><a href="?ptn=321&prodi=321025&jenis=0">GIZI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">13</td>
+                                                <td class="ri">355</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>26</td>
+						<td>13211026</td>
+                                                <td><a href="?ptn=321&prodi=321026&jenis=0">KESEHATAN LINGKUNGAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">13</td>
+                                                <td class="ri">221</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>27</td>
+						<td>13211027</td>
+                                                <td><a href="?ptn=321&prodi=321027&jenis=0">KESELAMATAN DAN KESEHATAN KERJA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">18</td>
+                                                <td class="ri">475</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>28</td>
+						<td>13211028</td>
+                                                <td><a href="?ptn=321&prodi=321028&jenis=0">GEOFISIKA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">248</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>29</td>
+						<td>13211029</td>
+                                                <td><a href="?ptn=321&prodi=321029&jenis=0">GEOLOGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">243</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>30</td>
+						<td>13211030</td>
+                                                <td><a href="?ptn=321&prodi=321030&jenis=0">STATISTIKA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">293</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>31</td>
+						<td>13211031</td>
+                                                <td><a href="?ptn=321&prodi=321031&jenis=0">AKTUARIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">376</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>32</td>
+						<td>13211032</td>
+                                                <td><a href="?ptn=321&prodi=321032&jenis=0">TEKNIK BIOMEDIS</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">10</td>
+                                                <td class="ri">261</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>33</td>
+						<td>13211033</td>
+                                                <td><a href="?ptn=321&prodi=321033&jenis=0">ILMU HUKUM</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">114</td>
+                                                <td class="ri">1787</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>34</td>
+						<td>13211034</td>
+                                                <td><a href="?ptn=321&prodi=321034&jenis=0">ARKEOLOGI INDONESIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">171</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>35</td>
+						<td>13211035</td>
+                                                <td><a href="?ptn=321&prodi=321035&jenis=0">ILMU SEJARAH</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">165</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>36</td>
+						<td>13211036</td>
+                                                <td><a href="?ptn=321&prodi=321036&jenis=0">ILMU PSIKOLOGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">66</td>
+                                                <td class="ri">1307</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>37</td>
+						<td>13211037</td>
+                                                <td><a href="?ptn=321&prodi=321037&jenis=0">ILMU KOMUNIKASI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">33</td>
+                                                <td class="ri">1080</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>38</td>
+						<td>13211038</td>
+                                                <td><a href="?ptn=321&prodi=321038&jenis=0">ILMU POLITIK</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">274</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>39</td>
+						<td>13211039</td>
+                                                <td><a href="?ptn=321&prodi=321039&jenis=0">ILMU ADMINISTRASI NEGARA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">33</td>
+                                                <td class="ri">498</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>40</td>
+						<td>13211040</td>
+                                                <td><a href="?ptn=321&prodi=321040&jenis=0">KRIMINOLOGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">15</td>
+                                                <td class="ri">641</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>41</td>
+						<td>13211041</td>
+                                                <td><a href="?ptn=321&prodi=321041&jenis=0">SOSIOLOGI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">294</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>42</td>
+						<td>13211042</td>
+                                                <td><a href="?ptn=321&prodi=321042&jenis=0">ILMU KESEJAHTERAAN SOSIAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">277</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>43</td>
+						<td>13211043</td>
+                                                <td><a href="?ptn=321&prodi=321043&jenis=0">ANTROPOLOGI SOSIAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">238</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>44</td>
+						<td>13211044</td>
+                                                <td><a href="?ptn=321&prodi=321044&jenis=0">ILMU EKONOMI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">30</td>
+                                                <td class="ri">556</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>45</td>
+						<td>13211045</td>
+                                                <td><a href="?ptn=321&prodi=321045&jenis=0">ILMU ADMINISTRASI NIAGA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">33</td>
+                                                <td class="ri">586</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>46</td>
+						<td>13211046</td>
+                                                <td><a href="?ptn=321&prodi=321046&jenis=0">ILMU ADMINISTRASI FISKAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">33</td>
+                                                <td class="ri">558</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>47</td>
+						<td>13211047</td>
+                                                <td><a href="?ptn=321&prodi=321047&jenis=0">MANAJEMEN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">60</td>
+                                                <td class="ri">1506</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>48</td>
+						<td>13211048</td>
+                                                <td><a href="?ptn=321&prodi=321048&jenis=0">AKUNTANSI</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">60</td>
+                                                <td class="ri">1516</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>49</td>
+						<td>13211049</td>
+                                                <td><a href="?ptn=321&prodi=321049&jenis=0">ILMU HUBUNGAN INTERNASIONAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">12</td>
+                                                <td class="ri">582</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>50</td>
+						<td>13211050</td>
+                                                <td><a href="?ptn=321&prodi=321050&jenis=0">ILMU PERPUSTAKAAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">187</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>51</td>
+						<td>13211051</td>
+                                                <td><a href="?ptn=321&prodi=321051&jenis=0">ILMU FILSAFAT</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">154</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>52</td>
+						<td>13211052</td>
+                                                <td><a href="?ptn=321&prodi=321052&jenis=0">SASTRA INDONESIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">234</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>53</td>
+						<td>13211053</td>
+                                                <td><a href="?ptn=321&prodi=321053&jenis=0">SASTRA DAERAH UNTUK SASTRA JAWA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">64</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>54</td>
+						<td>13211054</td>
+                                                <td><a href="?ptn=321&prodi=321054&jenis=0">SASTRA JEPANG</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">357</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>55</td>
+						<td>13211055</td>
+                                                <td><a href="?ptn=321&prodi=321055&jenis=0">SASTRA CINA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">364</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>56</td>
+						<td>13211056</td>
+                                                <td><a href="?ptn=321&prodi=321056&jenis=0">SASTRA ARAB</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">272</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>57</td>
+						<td>13211057</td>
+                                                <td><a href="?ptn=321&prodi=321057&jenis=0">SASTRA PERANCIS</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">11</td>
+                                                <td class="ri">131</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>58</td>
+						<td>13211058</td>
+                                                <td><a href="?ptn=321&prodi=321058&jenis=0">SASTRA INGGRIS</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">395</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>59</td>
+						<td>13211059</td>
+                                                <td><a href="?ptn=321&prodi=321059&jenis=0">SASTRA JERMAN</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">11</td>
+                                                <td class="ri">171</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>60</td>
+						<td>13211060</td>
+                                                <td><a href="?ptn=321&prodi=321060&jenis=0">SASTRA BELANDA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">170</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>61</td>
+						<td>13211061</td>
+                                                <td><a href="?ptn=321&prodi=321061&jenis=0">SASTRA RUSIA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">16</td>
+                                                <td class="ri">123</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>62</td>
+						<td>13211062</td>
+                                                <td><a href="?ptn=321&prodi=321062&jenis=0">BAHASA DAN KEBUDAYAAN KOREA</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">11</td>
+                                                <td class="ri">223</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>63</td>
+						<td>13211063</td>
+                                                <td><a href="?ptn=321&prodi=321063&jenis=0">ILMU EKONOMI ISLAM</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">10</td>
+                                                <td class="ri">200</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>64</td>
+						<td>13211064</td>
+                                                <td><a href="?ptn=321&prodi=321064&jenis=0">BISNIS ISLAM</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">10</td>
+                                                <td class="ri">194</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>65</td>
+						<td>13211080</td>
+                                                <td><a href="?ptn=321&prodi=321080&jenis=0">KECERDASAN ARTIFISIAL</a></td>
+						<td class="ri">Sarjana</td>
+                                                <td class="ri">12</td>
+                                                <td class="ri"></td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>66</td>
+						<td>13212065</td>
+                                                <td><a href="?ptn=321&prodi=321065&jenis=0">MANAJEMEN BISNIS PARIWISATA</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">422</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>67</td>
+						<td>13212066</td>
+                                                <td><a href="?ptn=321&prodi=321066&jenis=0">TERAPI OKUPASI</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">391</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>68</td>
+						<td>13212067</td>
+                                                <td><a href="?ptn=321&prodi=321067&jenis=0">FISIOTERAPI</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">513</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>69</td>
+						<td>13212068</td>
+                                                <td><a href="?ptn=321&prodi=321068&jenis=0">MANAJEMEN REKOD DAN ARSIP</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">515</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>70</td>
+						<td>13212078</td>
+                                                <td><a href="?ptn=321&prodi=321078&jenis=0">BISNIS KREATIF</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">497</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>71</td>
+						<td>13212079</td>
+                                                <td><a href="?ptn=321&prodi=321079&jenis=0">PRODUKSI MEDIA</a></td>
+						<td class="ri">Sarjana Terapan</td>
+                                                <td class="ri">31</td>
+                                                <td class="ri">679</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>72</td>
+						<td>13213069</td>
+                                                <td><a href="?ptn=321&prodi=321069&jenis=0">ADMINISTRASI PERPAJAKAN</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">263</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>73</td>
+						<td>13213070</td>
+                                                <td><a href="?ptn=321&prodi=321070&jenis=0">ADMINISTRASI PERKANTORAN</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">275</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>74</td>
+						<td>13213071</td>
+                                                <td><a href="?ptn=321&prodi=321071&jenis=0">ADMINISTRASI RUMAH SAKIT</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">271</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>75</td>
+						<td>13213072</td>
+                                                <td><a href="?ptn=321&prodi=321072&jenis=0">PENYIARAN MULTIMEDIA</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">230</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>76</td>
+						<td>13213073</td>
+                                                <td><a href="?ptn=321&prodi=321073&jenis=0">ADMINISTRASI ASURANSI & AKTUARIA</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">159</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>77</td>
+						<td>13213074</td>
+                                                <td><a href="?ptn=321&prodi=321074&jenis=0">HUBUNGAN MASYARAKAT</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">245</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>78</td>
+						<td>13213075</td>
+                                                <td><a href="?ptn=321&prodi=321075&jenis=0">PERIKLANAN KREATIF</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">324</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>79</td>
+						<td>13213076</td>
+                                                <td><a href="?ptn=321&prodi=321076&jenis=0">AKUNTANSI</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">281</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                        					                                                                                            <tr class="">
+                                                <td>80</td>
+						<td>13213077</td>
+                                                <td><a href="?ptn=321&prodi=321077&jenis=0">ADMINISTRASI KEUANGAN DAN PERBANKAN</a></td>
+						<td class="ri">Diploma Tiga</td>
+                                                <td class="ri">20</td>
+                                                <td class="ri">256</td>
+                                                <td align="right">Tidak Ada</td>
+                                            </tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+    </td>
+    <td width="1%"></td>
+                <td valign="top">
+            <div class="panel-title"><b>PENDIDIKAN DOKTER</b></div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="panel-title">INFORMASI UMUM</div>
+                </div>
+                <div class="panel-body">
+                    <table class="table"> 
+								
+                        <tr>			
+                            <td>Kode</td>
+                            <td>13211001</td>
+                        </tr>
+                        <tr>
+                            <td>Nama</td>
+                            <td>PENDIDIKAN DOKTER</td>
+                        </tr>
+			<tr>
+                            <td>Jenjang</td>
+			                                <td>Sarjana</td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Portofolio</td>
+                            <td>Tidak Ada</td>
+                        </tr>						
+                    </table>
+                </div>
+
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="panel-heading">SEBARAN DATA</div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th style="text-align: right">2021</th>
+                                <th style="text-align: right">2022</th>
+                                <th style="text-align: right">2023</th>
+				<th style="text-align: right">2024</th>
+				<th style="text-align: right">2025</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td>Jumlah Peminat</td>
+                                <td style="text-align: right">1189</td>
+                                <td style="text-align: right">1242</td>
+                                <td style="text-align: right">1854</td>
+				<td style="text-align: right">1720</td>
+				<td style="text-align: right">2056</td>								
+                            </tr>
+                            <tr>
+                                <td>Daya Tampung</td>
+                                <td style="text-align: right">36<br><span style="font-size: small">(3.03%)</span></td>
+                                <td style="text-align: right">36<br><span style="font-size: small">(2.90%)</span></td>
+                                <td style="text-align: right">50<br><span style="font-size: small">(2.70%)</span></td>
+				<td style="text-align: right">55<br><span style="font-size: small">(3.20%)</span></td>
+                                <td style="text-align: right">60<br><span style="font-size: small">(2.92%)</span></td>
+                            </tr>
+							
+                         </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </td>
+        </tr>
+</table>
+    </div>
+</div>
+</body>
+</html>
+     
