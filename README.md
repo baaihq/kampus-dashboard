@@ -104,12 +104,27 @@ Hasil crawl otomatis tersimpan ke `dashboard/public/data/` dan langsung dipakai 
 
 ## 🌐 Deploy di Ubuntu (Nginx)
 
-Build statis, tidak memerlukan runtime Node di server.
+Build statis, tidak memerlukan runtime Node di server. Repo dibangun di
+`/home/baaihq/kampus-dashboard/` dan **Nginx menyajikan langsung** folder hasil build
+(`dashboard/dist`) dari direktori tersebut.
 
-### Opsi A — Otomatis dengan GitHub Actions (disarankan)
+### Cara tercepat — satu perintah
+
+```bash
+# di server (install git, Node.js, Nginx + clone + build + konfigurasi)
+bash install.sh                # atau: bash install.sh domain.com
+```
+
+Hasil: website bisa diakses di `http://<IP-atau-domain>`. Untuk update berikutnya:
+
+```bash
+bash /home/baaihq/kampus-dashboard/deploy/server-deploy.sh
+```
+
+### Opsi A — Otomatis dengan GitHub Actions
 
 Setiap push ke `main`, workflow `.github/workflows/deploy.yml` akan membangun dashboard lalu
-mengirim `dist/` ke server via rsync. Siapkan 4 secrets di **Settings → Secrets and variables →
+mengirim hasilnya ke server via rsync. Siapkan 5 secrets di **Settings → Secrets and variables →
 Actions**:
 
 | Secret            | Contoh                                     |
@@ -118,7 +133,7 @@ Actions**:
 | `SSH_USER`        | `ubuntu`                                   |
 | `SSH_PORT`        | `22`                                       |
 | `SSH_PRIVATE_KEY` | isi dengan isi file kunci SSH privat       |
-| `SERVER_PATH`     | `/var/www/kampus-dashboard`                |
+| `SERVER_PATH`     | `/home/baaihq/kampus-dashboard/dashboard/dist` |
 
 Kunci publik SSH (pasangan `SSH_PRIVATE_KEY`) harus terdaftar di `~/.ssh/authorized_keys`
 user deploy di server.
@@ -126,11 +141,11 @@ user deploy di server.
 ### Opsi B — Manual (rsync)
 
 ```bash
-# setup server sekali jalan (install Nginx + folder + konfigurasi)
+# setup Nginx sekali jalan
 bash deploy/setup-server.sh                 # atau: bash deploy/setup-server.sh domain.com
 
-# deploy dari komputer Anda (build + kirim)
-SERVER_HOST=203.0.113.10 ./deploy/deploy.sh
+# deploy dari komputer Anda (build + kirim ke folder hasil build)
+SERVER_HOST=203.0.113.10 SERVER_PATH=/home/baaihq/kampus-dashboard/dashboard/dist ./deploy/deploy.sh
 ```
 
 ---

@@ -8,7 +8,7 @@ set -euo pipefail
 
 SERVER_USER="${SERVER_USER:-ubuntu}"
 SERVER_HOST="${SERVER_HOST:-}"
-SERVER_PATH="${SERVER_PATH:-/var/www/kampus-dashboard}"
+SERVER_PATH="${SERVER_PATH:-/home/baaihq/kampus-dashboard/dashboard/dist}"
 DASHBOARD_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../dashboard" && pwd)"
 
 if [[ -z "$SERVER_HOST" ]]; then

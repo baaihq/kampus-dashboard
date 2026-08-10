@@ -1,34 +1,35 @@
 #!/usr/bin/env bash
-# Setup sekali jalan di server Ubuntu:
-#   - install Nginx
-#   - buat folder aplikasi
-#   - tulis & aktifkan konfigurasi situs
+# Setup Nginx di Ubuntu agar menyajikan hasil build dashboard.
+# Nginx membaca langsung dari folder repo (dist), tidak menyalin ke /var/www.
 #
 # Cara pakai:
-#   bash setup-server.sh                 # untuk akses via IP (server_name _)
-#   bash setup-server.sh kampus.example.com   # untuk domain
+#   bash setup-server.sh                       # domain/IP otomatis (_)
+#   bash setup-server.sh domain.com            # dengan domain
+#   bash setup-server.sh domain.com /home/baaihq/kampus-dashboard
 set -euo pipefail
 
-APP_DIR="/var/www/kampus-dashboard"
 DOMAIN="${1:-_}"
+REPO_DIR="${2:-${REPO_DIR:-/home/baaihq/kampus-dashboard}}"
+NGINX_ROOT="$REPO_DIR/dashboard/dist"
 
-echo "==> Update sistem & install Nginx"
+echo "==> Install Nginx"
 sudo apt-get update
 sudo apt-get install -y nginx
 
-echo "==> Siapkan direktori aplikasi: $APP_DIR"
-sudo mkdir -p "$APP_DIR"
-# Pastikan folder dapat ditulis oleh user SSH yang dipakai deploy (mis. ubuntu)
-sudo chown -R "$USER":www-data "$APP_DIR" 2>/dev/null || sudo chown -R www-data:www-data "$APP_DIR"
+echo "==> Izinkan Nginx mengakses folder repo ($REPO_DIR)"
+sudo chmod o+x "$(dirname "$REPO_DIR")" 2>/dev/null || true
+sudo chmod o+x "$REPO_DIR" 2>/dev/null || true
+sudo chmod o+x "$REPO_DIR/dashboard" 2>/dev/null || true
+sudo chmod -R o+rX "$NGINX_ROOT" 2>/dev/null || true
 
-echo "==> Tulis konfigurasi Nginx"
+echo "==> Tulis konfigurasi Nginx (root: $NGINX_ROOT)"
 sudo tee /etc/nginx/sites-available/kampus-dashboard > /dev/null <<NGINX
 server {
     listen 80;
     listen [::]:80;
     server_name $DOMAIN;
 
-    root $APP_DIR;
+    root $NGINX_ROOT;
     index index.html;
 
     gzip on;
@@ -46,22 +47,14 @@ server {
 }
 NGINX
 
-echo "==> Aktifkan situs"
+echo "==> Aktifkan situs & reload Nginx"
 sudo ln -sf /etc/nginx/sites-available/kampus-dashboard /etc/nginx/sites-enabled/
-
-echo "==> Uji konfigurasi & reload Nginx"
 sudo nginx -t
 sudo systemctl enable nginx
 sudo systemctl reload nginx
 
 echo
 echo "=============================================="
-echo "Setup selesai."
-echo "Folder website : $APP_DIR"
-echo "Letakkan hasil build (dashboard/dist) di folder tersebut,"
-echo "atau gunakan GitHub Actions / deploy.sh."
-echo
-echo "Firewall (opsional):"
-echo "  sudo ufw allow 'Nginx Full'"
-echo "  sudo ufw enable"
+echo "Nginx siap. Root: $NGINX_ROOT"
+echo "Firewall (opsional): sudo ufw allow 'Nginx Full' && sudo ufw enable"
 echo "=============================================="

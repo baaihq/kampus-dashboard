@@ -1,32 +1,19 @@
 #!/usr/bin/env bash
-# Deploy di server: clone repo terbaru, build, lalu salin ke web root Nginx.
-#
-# Mirip pola: cd $HOME && rm -rf <repo> && git clone ... && cd <repo>
-#
-# Prasyarat di server:
-#   - Node.js >= 20 (untuk build) -> install: curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs
-#   - Nginx sudah ter-setup (jalankan deploy/setup-server.sh sekali)
+# Deploy di server: clone repo terbaru, build, lalu beri izin Nginx membaca hasil build.
+# Nginx menyajikan langsung dari $REPO_DIR/dashboard/dist (diatur setup-server.sh).
 #
 # Cara pakai (di server):
 #   bash deploy/server-deploy.sh
-#   REPO_URL=... WEB_DIR=/var/www/kampus-dashboard ./deploy/server-deploy.sh
+#   REPO_DIR=/home/baaihq/kampus-dashboard bash deploy/server-deploy.sh
 set -euo pipefail
 
 REPO_URL="${REPO_URL:-https://github.com/baaihq/kampus-dashboard.git}"
-REPO_DIR="${REPO_DIR:-$HOME/kampus-dashboard}"
-WEB_DIR="${WEB_DIR:-/var/www/kampus-dashboard}"
-
-# Keamanan: web root harus di bawah /var/www agar tidak menghapus folder penting
-if [[ "$WEB_DIR" != /var/www/* ]]; then
-  echo "Error: WEB_DIR harus di bawah /var/www (sekarang: $WEB_DIR)"
-  exit 1
-fi
+REPO_DIR="${REPO_DIR:-/home/baaihq/kampus-dashboard}"
+NGINX_ROOT="$REPO_DIR/dashboard/dist"
 
 echo "==> Cek Node.js"
 if ! command -v node >/dev/null 2>&1; then
-  echo "Node.js belum terpasang. Install dulu:"
-  echo "  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -"
-  echo "  sudo apt-get install -y nodejs"
+  echo "Node.js belum terpasang. Jalankan dulu: bash install.sh"
   exit 1
 fi
 node --version
@@ -42,13 +29,14 @@ npm ci
 echo "==> Build produksi"
 npm run build
 
-echo "==> Salin hasil build ke $WEB_DIR"
-sudo mkdir -p "$WEB_DIR"
-sudo rm -rf "$WEB_DIR/"*
-sudo cp -r dist/* "$WEB_DIR/"
-sudo chown -R www-data:www-data "$WEB_DIR"
+echo "==> Beri izin Nginx membaca hasil build"
+sudo chmod o+x "$(dirname "$REPO_DIR")" 2>/dev/null || true
+sudo chmod o+x "$REPO_DIR" 2>/dev/null || true
+sudo chmod o+x "$REPO_DIR/dashboard" 2>/dev/null || true
+sudo chmod -R o+rX "$NGINX_ROOT"
 
 echo
 echo "=============================================="
-echo "Deploy selesai. Buka: http://<alamat-ip-atau-domain>"
+echo "Deploy selesai. Root Nginx: $NGINX_ROOT"
+echo "Buka: http://<alamat-IP-atau-domain>"
 echo "=============================================="
