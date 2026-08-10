@@ -104,9 +104,8 @@ Hasil crawl otomatis tersimpan ke `dashboard/public/data/` dan langsung dipakai 
 
 ## 🌐 Deploy di Ubuntu (Nginx)
 
-Build statis, tidak memerlukan runtime Node di server. Repo dibangun di
-`/home/baaihq/kampus-dashboard/` dan **Nginx menyajikan langsung** folder hasil build
-(`dashboard/dist`) dari direktori tersebut.
+Build statis, tidak memerlukan runtime Node di server. Folder hasil build (`dashboard/dist`)
+dapat disajikan langsung oleh Nginx.
 
 ### Cara tercepat — satu perintah
 
@@ -115,11 +114,8 @@ Build statis, tidak memerlukan runtime Node di server. Repo dibangun di
 bash install.sh                # atau: bash install.sh domain.com
 ```
 
-Hasil: website bisa diakses di `http://<IP-atau-domain>`. Untuk update berikutnya:
-
-```bash
-bash /home/baaihq/kampus-dashboard/deploy/server-deploy.sh
-```
+Script menginstall dependensi, menyalin repo, membangun dashboard, lalu mengonfigurasi Nginx.
+Untuk update berikutnya cukup jalankan `deploy/server-deploy.sh` di folder repo.
 
 ### Opsi A — Otomatis dengan GitHub Actions
 
@@ -133,7 +129,7 @@ Actions**:
 | `SSH_USER`        | `ubuntu`                                   |
 | `SSH_PORT`        | `22`                                       |
 | `SSH_PRIVATE_KEY` | isi dengan isi file kunci SSH privat       |
-| `SERVER_PATH`     | `/home/baaihq/kampus-dashboard/dashboard/dist` |
+| `SERVER_PATH`     | isi dengan path folder hasil build di server (mis. di bawah direktori repo) |
 
 Kunci publik SSH (pasangan `SSH_PRIVATE_KEY`) harus terdaftar di `~/.ssh/authorized_keys`
 user deploy di server.
@@ -145,7 +141,7 @@ user deploy di server.
 bash deploy/setup-server.sh                 # atau: bash deploy/setup-server.sh domain.com
 
 # deploy dari komputer Anda (build + kirim ke folder hasil build)
-SERVER_HOST=203.0.113.10 SERVER_PATH=/home/baaihq/kampus-dashboard/dashboard/dist ./deploy/deploy.sh
+SERVER_HOST=203.0.113.10 ./deploy/deploy.sh
 ```
 
 ---
